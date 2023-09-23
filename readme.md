@@ -1,4 +1,4 @@
-Forked from [daniels/kms-quads](https://gitlab.freedesktop.org/daneals/kms-quads)
+Forked from [daniels/kms-quads](https://gitlab.freedesktop.org/daniels/kms-quads)
 # Quantom Leap
 What if we could redesign the UI of the linux desktop from scratch?
 
