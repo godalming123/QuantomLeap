@@ -35,7 +35,7 @@
 
 #include "kms-quads.h"
 
-#include <drm.h>
+#include <drm/drm.h>
 #include <EGL/egl.h>
 #include <EGL/eglext.h>
 

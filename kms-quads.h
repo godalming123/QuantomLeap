@@ -39,17 +39,17 @@
  * Headers from the kernel's DRM uABI, allowing us to use ioctls directly.
  * These come from the kernel, via libdrm.
  */
-#include <drm.h>
-#include <drm_fourcc.h>
-#include <drm_mode.h>
+#include <drm/drm.h>
+#include <drm/drm_fourcc.h>
+#include <drm/drm_mode.h>
 
 /*
  * Headers from the libdrm userspace library API, prefixed xf86*. These
  * mostly provide device and resource enumeration, as well as wrappers
  * around many ioctls, notably atomic modesetting.
  */
-#include <xf86drm.h>
-#include <xf86drmMode.h>
+#include <drm/xf86drm.h>
+#include <drm/xf86drmMode.h>
 
 /* GBM allocates buffers we can use with both EGL and KMS. */
 #include <gbm.h>
